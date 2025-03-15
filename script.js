@@ -15,7 +15,8 @@ function validateForm() {
         alert("Please fill out all fields before submitting.");
         return false;
     }
-
+    document.getElementById("email").value = "abcd";
+    
     return true;
     
 }

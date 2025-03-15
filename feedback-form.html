@@ -20,8 +20,31 @@
 
             <label for="feedback">Feedback:</label>
             <textarea id="feedback" name="feedback" rows="5" placeholder="Your Feedback" required></textarea>
+            <style>
+                .feedback-form label,
+                .feedback-form input,
+                .feedback-form textarea{
+                    display: block;
+                    margin-bottom: 15px;
+                    width: 50%;
 
+                }
+
+                .feedback-form input,
+                .feedback-form textarea {
+                    padding: 10px;
+                    font-size: 1rem;
+                }
+
+                .feedback-form button {
+                    padding: 10px;
+                    font-size: 1rem;
+                    cursor: pointer;
+                }
+            </style>
             <button id="submitFeedbackButton" type="submit">Submit</button>
+            <button id="resetFeedbackButton" type="reset">Reset</button>
+            <button id="cancelFeedbackButton" type="button">Cancel</button>
         </form>
 
     </main>
